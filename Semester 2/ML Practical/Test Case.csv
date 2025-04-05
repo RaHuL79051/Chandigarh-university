@@ -1,0 +1,23 @@
+﻿Personal Portfolio Website Test Cases,,,,,,,,,,,,,,,
+Test Case ID,Module Name,Test Designed By,Test Designed Date,Test Executed By,Test Title/Name,Test Step,Expected Result,Actual Result,,,,,,,
+TC001,Home Page,Rahul,11-01-2025,Rahul,Verify Home Page Load,"1. Open the URL in a browser
+2. Observe the home page elements.","Home page loads successfully with all elements displayed (header, footer, profile image, links, etc.).",Home page loaded successfully with all elements visible and functional.,,,,,,,
+TC002,Navigation Menu,Rahul,12-01-2025,Rahul,Verify Navigation Links Functionality,"1. Click each navigation link (e.g., About, Projects, Contact).
+2. Observe if the respective section or page loads.",Each navigation link redirects to the correct section/page without errors.,Navigation links redirected to correct sections; all links functional.,,,,,,,
+TC003,About Section,Rahul,13-01-2025,Rahul,Verify About Section Content,"1. Scroll to the About section.
+2. Verify the content, images, and formatting.",About section displays content correctly with aligned text and visible profile image.,About section displayed correctly; profile image and text formatting are as expected.,,,,,,,
+TC004,Projects Section,Rahul,14-01-2025,Rahul,Verify Projects Section Display,"1. Scroll to the Projects section.
+2. Verify project cards with descriptions and links.",All project cards are displayed with complete descriptions and working links.,All project cards displayed properly; links redirect to corresponding project repositories or pages.,,,,,,,
+TC005,Contact Form,Rahul,15-01-2025,Rahul,Verify Contact Form Functionality,"1. Scroll to the Projects section.
+2. Verify project cards with descriptions and links.",Contact form submits successfully and displays a confirmation message or sends an email.,Contact form submitted successfully; success message displayed on the screen.,,,,,,,
+TC006,Responsiveness,Rahul,16-01-2025,Rahul,Verify Website Responsiveness,"1. Open the website on multiple devices (desktop, tablet, mobile).
+2. Observe the layout and elements.","Website layout adjusts correctly without breaking, and all elements are visible and functional on different devices.","Website displayed correctly on desktop, tablet, and mobile; layout adjusted as expected.",,,,,,,
+TC007,Social Media Links,Rahul,17-01-2025,Rahul,Verify Social Media Links,"1. Click on each social media link.
+2. Verify if it redirects to the correct profile.",All social media links redirect to the correct profiles in a new tab.,All social media links opened correct profiles in new tabs.,,,,,,,
+TC008,Performance,Rahul,18-01-2025,Rahul,Verify Website Loading Speed,"1. Open the website.
+2. Measure the loading time using browser developer tools or online tools.",Website loads within 3 seconds on a stable internet connection.,Website loaded in 2.8 seconds on a stable connection.,,,,,,,
+TC009,Accessibility,Rahul,19-01-2025,Rahul,Verify Accessibility Compliance,"1. Use an accessibility tool (e.g., Lighthouse).
+2. Check for alt tags, ARIA roles, and keyboard navigation",Website complies with accessibility standards (WCAG) and has no major issues.,"Accessibility test passed with minor suggestions (e.g., improve contrast in some sections).",,,,,,,
+TC010,Font and Styling,Rahul,20-01-2025,Rahul,Verify Font and Styling Consistency,"1. Observe font consistency across the website.
+2. Verify the color scheme and alignment match the intended design.","Fonts, colors, and alignment are consistent with the gray and white theme, and all sections are visually appealing.","Fonts, colors, and alignment consistent throughout the website; gray and white theme implemented successfully.",,,,,,,
+,,,,,,,,,,,,,,,
