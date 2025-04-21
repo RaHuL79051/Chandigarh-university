@@ -1,0 +1,100 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  margin: 0;
+  background-color: #ecf0f1;
+}
+.sidebar {
+  width: 260px;
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+  transition: width 0.3s;
+}
+.sidebar:hover {
+  width: 280px;
+}
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar ul li {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+.sidebar ul li a:hover {
+  background: #34495e;
+  padding-left: 15px;
+}
+.main-content {
+  margin-left: 280px;
+  padding: 20px;
+  width: calc(100% - 280px);
+  transition: margin-left 0.3s;
+}
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.stats-card {
+  background: #2980b9;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  transition: transform 0.3s;
+}
+.stats-card:hover {
+  transform: translateY(-5px);
+}
+.stats-card span {
+  font-weight: bold;
+  font-size: 26px;
+}
+.recent-activities {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+.recent-activities:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.recent-activities h2 {
+  margin-top: 0;
+}
+.recent-activities ul {
+  list-style: none;
+  padding: 0;
+}
+.recent-activities ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  transition: background 0.3s;
+}
+.recent-activities ul li:hover {
+  background: #f8f9fa;
+}
+.recent-activities ul li:last-child {
+  border-bottom: none;
+}

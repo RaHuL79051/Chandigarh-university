@@ -1,0 +1,161 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+/* Body Styling */
+body {
+  background: #1e1e2f;
+  color: white;
+}
+
+/* 🟡 Navbar Styling */
+nav {
+  background: #222;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.logo {
+  color: #f1c40f;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.logo:hover {
+  color: #ffdb58;
+}
+
+/* Navbar Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f1c40f;
+}
+
+/* 📱 Responsive Navbar (Mobile) */
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Movie Container */
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* 🎬 Movie Cards */
+.card {
+  background: #2c2c3e;
+  border-radius: 10px;
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  color: #f1c40f;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* 🎟️ Book Now Button */
+.BookNowButton {
+  background: #f1c40f;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.BookNowButton:hover {
+  background: #d4ac0d;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #222;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 10px 0;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .movies-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
